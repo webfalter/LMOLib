@@ -1,7 +1,7 @@
 {
-    "name": "webfalter/lmoapi",
+    "name": "webfalter/lmolib",
     "type": "library",
-    "description": "LmoApi, the flexible, fast, and secure Library for LMOLight",
+    "description": "LMOLib, the flexible, fast, and secure Library for LMOLight",
     "keywords": ["api"],
     "homepage": "",
     "license": "MIT",
@@ -29,12 +29,12 @@
         "files": [
         ],
         "psr-4" : {
-            "LmoApi\\" : "src/"
+            "LMOLib\\" : "src/"
         }
     },
     "autoload-dev": {
         "psr-4" : {
-            "LmoApi\\Tests\\" : "tests/"
+            "LMOLib\\Tests\\" : "tests/"
         }
     }
 }
