@@ -1,5 +1,6 @@
-namespace Lmolib\src;
+namespace LMOLib;
 
 class Liga
 {
+echo "Liga";
 }
