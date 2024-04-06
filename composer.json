@@ -1,6 +1,6 @@
 {
     "name": "webfalter/lmolib",
-    "type": "lib",
+    "type": "library",
     "description": "",
     "version": "0.1.0",
     "author": {
