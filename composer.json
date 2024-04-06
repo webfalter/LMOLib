@@ -10,4 +10,14 @@
     "require": {
         "webfalter/lmolib": "*"
     }
+      "autoload": {
+        "psr-4" : {
+            "LMOLib\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "LMOLib\\Tests\\" : "tests/"
+        }
+    }
 }
