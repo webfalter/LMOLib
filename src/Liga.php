@@ -1,4 +1,4 @@
-namespace LMOLib;
+namespace LMOLib\src;
 
 class Liga
 {
