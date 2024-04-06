@@ -1,1 +1,5 @@
-test
+namespace Lmolib\src;
+
+class Liga
+{
+}
