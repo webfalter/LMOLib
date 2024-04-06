@@ -1,17 +1,13 @@
 {
     "name": "webfalter/lmolib",
-    "description": "Sample project",
-    "homepage": "",
-    "repositories": [{
-    "type": "package",
-    "package": {
-        "name": "webfalter/lmolib",
-        "version": "1.0.0",
-        "source": {
-                "url": "git@server.co.uk:Repository.git",
-            "type": "git",
-        "reference": "1.0.0"
-        }
-        }
-    }],
+    "type": "lib",
+    "description": "",
+    "version": "0.1.0",
+    "author": {
+        "name": "Torsten Hofmann",
+        "email": ""
+    },
+    "require": {
+        "lmolib/lmolib": "^1.0.0"
+    }
 }
