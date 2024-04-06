@@ -8,6 +8,6 @@
         "email": ""
     },
     "require": {
-        "lmolib/lmolib": "^1.0.0"
+        "lmolib/lmolib": "dev-main"
     }
 }
