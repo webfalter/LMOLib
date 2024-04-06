@@ -1,4 +1,6 @@
-namespace LMOLib\src;
+<?php
+
+namespace LMOLib;
 
 class Liga
 {
