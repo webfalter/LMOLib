@@ -1,40 +1,17 @@
 {
     "name": "webfalter/lmolib",
-    "type": "library",
-    "description": "LMOLib, the flexible, fast, and secure Library for LMOLight",
-    "keywords": ["api"],
+    "description": "Sample project",
     "homepage": "",
-    "license": "MIT",
-  
-    "authors": [
-        {
-            "name": "Torsten Hofmann",
-            "email": "",
-            "homepage": "",
-            "role": "Lead Developer"
+    "repositories": [{
+    "type": "package",
+    "package": {
+        "name": "webfalter/lmolib",
+        "version": "1.0.0",
+        "source": {
+                "url": "git@server.co.uk:Repository.git",
+            "type": "git",
+        "reference": "1.0.0"
         }
-    ],
-    "require": {
-        "php": ">=8.2",
-        "symfony/polyfill-php80": "^1.22",
-        "symfony/deprecation-contracts": "^2.5|^3",
-        "symfony/polyfill-mbstring": "^1.3",
-        "symfony/polyfill-ctype": "^1.8"
-    },
-    "require-dev": {
-        "symfony/phpunit-bridge": "^5.4.9|^6.4|^7.0",
-        "psr/container": "^1.0|^2.0"
-    },
-    "autoload": {
-        "files": [
-        ],
-        "psr-4" : {
-            "LMOLib\\" : "src/"
         }
-    },
-    "autoload-dev": {
-        "psr-4" : {
-            "LMOLib\\Tests\\" : "tests/"
-        }
-    }
+    }],
 }
