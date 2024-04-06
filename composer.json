@@ -5,7 +5,7 @@
     "keywords": ["api"],
     "homepage": "",
     "license": "MIT",
-    "minimum-stability": "dev",
+  
     "authors": [
         {
             "name": "Torsten Hofmann",
