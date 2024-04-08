@@ -12,7 +12,8 @@
     },
       "autoload": {
         "psr-4" : {
-             "LMOLib\\" : "src"
+            "LMOLib\\" : "src/lib",
+             "LMOLib\\" : "src/inc"
         }
     },
     "autoload-dev": {
