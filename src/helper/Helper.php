@@ -1,5 +1,5 @@
 <?php
-namespace LMOLib\func;
+namespace LMOLib\helper;
 
 interface Helper
 {
