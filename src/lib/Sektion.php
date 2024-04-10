@@ -77,4 +77,4 @@ class Sektion
         }
     }
 
-}
+} // END class Sektion
