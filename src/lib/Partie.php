@@ -532,4 +532,4 @@ class Partie
         return $this->spielEnde;
     }
         
-}
+} // END class Partie
