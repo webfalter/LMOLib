@@ -2,7 +2,7 @@
 /**
  * LMOLib
  *
- * Partie, die in einer Liga gespielt wird
+ * Sektionen eines LigFiles zB. [Round1]
  *
  * @author Tim Schumacher
  * @author Rene Marth
