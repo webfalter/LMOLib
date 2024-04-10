@@ -2,7 +2,7 @@
 /**
  * LMOLib\inc\fussballSektion
  *
- * Sektionen einer fusballLiga zB. [Round1]
+ * Sektionen einer fussballLiga zB. [Round1]
  *
  * @author Tim Schumacher
  * @author Rene Marth
@@ -35,7 +35,7 @@ class fussballSektion extends \LMOAPI\lib\Sektion
      * @access public
      */
     public $keyValues = array(
-                              "Title"=>"LMOAPI Fussball",
+                              "Title"=>"LMOLib Fussball",
                               "Name"=>"Liga Name",
                               "Type"=>0,
                               "LigaType"=> "fussball",
@@ -110,4 +110,4 @@ class fussballSektion extends \LMOAPI\lib\Sektion
         }
   }
 
-} // End class fusballSektion Options
+} // End class fussballSektion Options
