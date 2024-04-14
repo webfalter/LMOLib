@@ -19,7 +19,7 @@ declare(strict_types=1);
 
 namespace LMOLib\inc;
 
-class bassketballLiga extends \LMOLib\lib\Liga
+class basketballLiga extends \LMOLib\lib\Liga
 {
 /**
  *
