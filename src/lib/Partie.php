@@ -329,8 +329,8 @@ class Partie
      */
     public function datumString($leer='',$format="%d.%m.%Y")
     {
-    //$str = ($this->zeit<1)?$leer:date($format,$this->zeit);
-        $str = ($this->zeit<1)?$leer:strftime($format,$this->zeit);
+        $str = ($this->zeit<1)?$leer:date($format,$this->zeit);
+        //$str = ($this->zeit<1)?$leer:strftime($format,$this->zeit);
         return $str;
     }
     /**
@@ -342,9 +342,9 @@ class Partie
      */
     public function zeitString($leer='',$format="%H:%M")
     {
-    //$str = ($this->zeit<1)?$leer:date($format,$this->zeit);
+    //$str = ($this->zeit<1)?$leer:strftime($format,$this->zeit);
         $str='';
-        $res = ($this->zeit<1)?$leer:strftime($format,$this->zeit);
+        $res = ($this->zeit<1)?$leer:date($format,$this->zeit);
         if ($res!='00:00') {
             $str=$res;
         } else {
