@@ -17,7 +17,7 @@
  */
 declare(strict_types=1);
 
-namespace LMOLib\helper;
+namespace LMOLib\util;
 
 use function class_exists;
 use function file_exists;
