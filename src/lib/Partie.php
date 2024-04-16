@@ -1,6 +1,6 @@
 <?php
 /**
- * LMOLib
+ * Partie
  *
  * Partie, die in einer Liga gespielt wird
  *
