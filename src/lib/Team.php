@@ -1,6 +1,6 @@
 <?php
 /**
- * LMOLib
+ * Team
  *
  * Mannschaft (Team), die an einer Liga teilnimmt
  *
