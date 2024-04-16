@@ -1,6 +1,6 @@
 <?php
 /**
- * LMOLib
+ * Spieltag
  *
  * Repraesentiert einen Spieltag
  * - Eine Liga hat mehrere Spieltage.
