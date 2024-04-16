@@ -1,6 +1,6 @@
 <?php
 /**
- * LMOLib
+ * Sektionen
  *
  * Sektionen eines LigFiles zB. [Round1]
  *
