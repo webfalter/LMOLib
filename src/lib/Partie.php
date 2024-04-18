@@ -327,7 +327,7 @@ class Partie
      * @param string format Datumsformat in strftime()-Notation Standard = %d.%m.%Y
      * @return string
      */
-    public function datumString($leer='',$format="%d.%m.%Y")
+    public function datumString($leer='',$format="d.m.Y")
     {
         $str = ($this->zeit<1)?$leer:date($format,$this->zeit);
         //$str = ($this->zeit<1)?$leer:strftime($format,$this->zeit);
@@ -340,7 +340,7 @@ class Partie
      * @param string format Zeitformat in strftime()-Notation Standard = %H:%M
      * @return string
      */
-    public function zeitString($leer='',$format="%H:%M")
+    public function zeitString($leer='',$format="H:i")
     {
     //$str = ($this->zeit<1)?$leer:strftime($format,$this->zeit);
         $str='';
