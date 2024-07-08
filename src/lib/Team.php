@@ -64,7 +64,7 @@ class Team
         $this->kurz = (string)$kurz;
         $this->mittel = (string)$mittel;
         $this->nr = (int)$nr;
-        $this->keyValues = array("SP"=>0,"SM"=>0,"TOR1"=>0,"TOR2"=>0,"STDA"=>0,"URL"=>"","NOT"=>"");
+        $this->keyValues = array("SP"=>0,"SM"=>0,"TOR1"=>0,"TOR2"=>0,"STDA"=>0,"URL"=>"","NOT"=>"","ICON"=>"","ID"=>"");
     }
     /**
      * Fügt ein neues KeyValue Paar hinzu
@@ -89,4 +89,3 @@ class Team
     }
 
 } // END class Team
-
